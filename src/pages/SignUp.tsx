@@ -1,7 +1,18 @@
+import signUpImage from "../assets/sign-up-image.svg";
+import "../index.css";
+
 export const SignUp: React.FC = () => {
   return (
     <>
-      <h1>Página de Cadastro</h1>
+      <main className="w-screen h-screen bg-[var(--color-pumpkin-50)] grid grid-cols-2">
+        <div className="w-full h-full flex justify-center items-center">
+          <img src={signUpImage} alt="Imagem da tela de cadastro" />
+        </div>
+
+        <div className="w-full h-full flex justify-center items-center">
+          FORM AQUI
+        </div>
+      </main>
     </>
   );
 };
