@@ -1,4 +1,5 @@
 import signUpImage from "../assets/sign-up-image.svg";
+import { SignUpForm } from "../components/SignUpForm";
 import "../index.css";
 
 export const SignUp: React.FC = () => {
@@ -10,7 +11,7 @@ export const SignUp: React.FC = () => {
         </div>
 
         <div className="w-full h-full flex justify-center items-center">
-          FORM AQUI
+          <SignUpForm />
         </div>
       </main>
     </>
