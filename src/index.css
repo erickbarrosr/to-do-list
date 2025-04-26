@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
   --color-vermilion-50: #fff4ed;
   --color-vermilion-100: #ffe6d4;
   --color-vermilion-200: #ffc8a8;
@@ -18,25 +14,10 @@
   --color-vermilion-800: #9e1a0e;
   --color-vermilion-900: #7f190f;
   --color-vermilion-950: #450805;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+* {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-
-  color: black;
-  background-color: var(--color-vermilion-50);
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  padding: 0;
+  box-sizing: border-box;
 }
